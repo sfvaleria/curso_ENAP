@@ -9,5 +9,5 @@ df = pd.DataFrame ({
 st.write ('Criando uma tabela')
 st.write(df)
 
-st.selectbox ('Qual servidor você gostaria de selecionar?',
+opcao = st.selectbox ('Qual servidor você gostaria de selecionar?',
               df['nomeServidor'])
